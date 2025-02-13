@@ -1,4 +1,8 @@
-const TodoForm = () => {
+import { useState } from "react";
+
+const TodoForm = ({ payload, isEditing, todos, setTodos, onCancel1 }) => {
+  const [todo, setTodo] = useState(payload ?? "");
+  const onChange = (e) => toso;
   return (
     <div>
       <form action="">

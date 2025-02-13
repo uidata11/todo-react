@@ -8,9 +8,11 @@ const App = () => {
   return (
     <div>
       <TodoForm />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <ul>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </ul>
     </div>
   );
 };
